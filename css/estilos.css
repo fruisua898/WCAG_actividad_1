@@ -23,13 +23,28 @@ Para usos en todo el DOM
 /* Parrafos y definiciones que tengan el mismo estilo:
 Color de la fuente, el espacio entre lineas
 Padding superior e inferior, para crear una pequeña separación y el texto justificado*/
+header{
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+}
+
+header h1 {
+	color: #fff;
+}
 
 p, dd{
 	padding: 12px 0px;
 	color: #222;
 	line-height: 1.4rem;
-	text-align: justify;
+	/*text-align: justify;
+	Las bloques grandes de texto justificado no son accesibles, los espacios en blanco variables
+	hace que sea lea peor
+	 */
+
+
 }
+
 
 /*Quitar el margen inicial que mete por defecto los navegadores.*/
 dd{
@@ -171,7 +186,7 @@ article .pie-foto{text-align: center;}
 
 /*Justificamos el texto, damos un poco de padding y los margenes laterales*/
 section p{
-	text-align: justify;
+	/*text-align: justify;*/
 	padding: 1px 0px;
 	margin-left: 5px;
     margin-right: 5px;
