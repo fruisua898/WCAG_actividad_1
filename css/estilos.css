@@ -182,34 +182,34 @@ nav ul li:hover, .actual{border-bottom: solid 3px #CC0000;}
  ********************/
 
 /*Alineamos texto al centro*/
-article .pie-foto{text-align: center;}
+section .pie-foto{text-align: center;}
 
 /*Justificamos el texto, damos un poco de padding y los margenes laterales*/
-section p{
+main p{
 	/*text-align: justify;*/
 	padding: 1px 0px;
 	margin-left: 5px;
     margin-right: 5px;
 }
 /*Cambiamos el color de los enlaces dentro de los párrafos*/
-section a{color: #CC0000;}
+main a{color: #CC0000;}
 
 /*Definimos tamaño máximo y posición de las imágenes en los artículos*/
-section img{
+main img{
 	max-width: 700px;
 	margin: 0 auto;
 	display: block;
 }
 
 /* Alinemos los pie de foto, damos margenes para que no se pegue al contenido y reducimos la fuente*/
-div.pie-foto{
+article.pie-foto{
 	text-align: center;
 	margin-top: 4px;
 	padding-top: 4px;
 	font-size: 0.75rem
 }
 /* ademuamos también el tamaño de los enlaces del pie de foto. */
-div.pie-foto a{
+article.pie-foto a{
 	font-size: 0.75rem
 }
 
@@ -253,7 +253,7 @@ Separamos de la parte superior, y reducimos la fuente, además de hacer la letra
 
 /*hacemos que los iconos dentro de las lista se alineen con el contenido 
 y estén verticalmente en el medio*/
-section li img{
+main li img{
 	display: inline-flex;
 	vertical-align: middle;
 }
