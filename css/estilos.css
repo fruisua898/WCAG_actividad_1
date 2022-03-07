@@ -34,7 +34,7 @@ header h1 {
 }
 
 p, dd{
-	padding: 12px 0px;
+	padding: 12px 0;
 	color: #222;
 	line-height: 1.4rem;
 	/*text-align: justify;
@@ -48,7 +48,7 @@ p, dd{
 
 /*Quitar el margen inicial que mete por defecto los navegadores.*/
 dd{
-	margin-left: 0px;
+	margin-left: 0;
 	
 }
 
@@ -86,7 +86,7 @@ h1,h2,h3,.metadatos-articulo{
 /* h3 y h3 le damos espacio y hacemos que tenga un peso más alto la fuente.*/
 h2,h3{
 	font-weight: bold;
-	margin: 10px 0px 20px 0px;
+	margin: 10px 0 20px 0;
 	text-align: left;
 }
 /* Tamaño a los títulos */
@@ -96,7 +96,7 @@ h3{font-size: 2rem;}
 /* Aumentamos el tamaño de los títulos de las descripciones y tipo de peso, además de dar margen.*/
 dt{
 	font-size: 2rem;
-	margin: 10px 0px;
+	margin: 10px 0;
 	font-weight: lighter;
 }
 /*Para posicionar los iframe de videos que tenemos*/
@@ -112,7 +112,7 @@ li {line-height: 40px;}
 .contenedor{
 	width: 70%;
 	margin:0 auto;
-	padding: 20px 0px;
+	padding: 20px 0;
 }
 
 /******************** 
@@ -169,7 +169,7 @@ nav ul li a{
 	letter-spacing: 1px;
 	color: #222;
 	padding: 8px 15px;
-	margin: 0px;
+	margin: 0;
 }
 
 /*Aplicamos un borde inferior al hacer hover al enlace 
@@ -187,7 +187,7 @@ section .pie-foto{text-align: center;}
 /*Justificamos el texto, damos un poco de padding y los margenes laterales*/
 main p{
 	/*text-align: justify;*/
-	padding: 1px 0px;
+	padding: 1px 0;
 	margin-left: 5px;
     margin-right: 5px;
 }
@@ -287,7 +287,7 @@ footer{
 /*Damos color, tamaño de la fuente y espacio y márgenes al párrafo del pié de página. */
 footer p{
 	color:#fff;
-	padding: 5px 0px;
+	padding: 5px 0;
 	margin:0;
 	font-size: 0.85rem;
 }
